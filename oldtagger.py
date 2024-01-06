@@ -41,29 +41,29 @@ async def start(event):
 		   
 		    buttons=(
                
-		      [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/oldtaggerbot?startgroup=a')],
-                      [Button.url('Söhbət Qurupu', 'https://t.me/oldchatresmi')],
-                      [Button.url('Kanal📢', 'https://t.me/oldresmiold')],
-		      [Button.url('🎉 Sahib', 'https://t.me/oldteamabasof'),
-                      Button.url(' SAHİB BLOG', 'https://t.me/oldteamabasoff')],
-                      [Button.url('ᴼ ᴸ ᴰ BOTS','http://t.me/oldbotsold')],
-                      [Button.url('LORD GAME','http://t.me/lorddgame_bot?startgroup=a')],
+		      [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/PalmasTaggerBot?startgroup=a')],
+                      [Button.url('Söhbət Qurupu', 'https://t.me/MedusaSohbet')],
+                      [Button.url('Kanal📢', 'https://t.me/PalmasBots')],
+		      [Button.url('🎉 Sahib', 'https://t.me/thisisgalka'),
+                      Button.url(' 😉Belə Bir botunun olmağını istərdinmi?', 'https://t.me/Thisisgalka')],
+                      [Button.url('Palmas Bots','http://t.me/PalmasBots')],
+                      [Button.url('🇦🇿Yeniliklər Üçün','http://t.me/PalmasBots?startgroup=a')],
                      ),
                     link_preview=False
                    )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "** [𝕆𝕃𝔻 TAGGER](http://t.me/oldtaggerbot)-un Kömək Əmrlər Bunlardır...💭,⤵**\n\n**🤖➪ /sehid <səbəb> - Şəhid adı ilə tag edir.**\n**🤖➪ /tag <səbəb> - 5-li Tag Atışları.**\n**🤖➪ /etag <səbəb> - Emoji ilə etiketlər.**\n**🤖➪ /stag <səbəb> - Söz'lü Tag etiketlər.**\n**🤖➪ /tektag <səbəb> - Üzvləri Tək-Tək etiketlər.**\n**🤖➪ /old <səbəb> - old Tag Bot'una aid Tag etiketlər.**\n**🤖➪ /admins <səbəb> - İdarəçilər Tək-Tək etiketlər.**\n**🤖➪ /cancel - Tag Ələməyi Dayandır.**\n**🤖➪ /start - Botu işə salır**\n**🤖➪ /rtag - Rənglə tag edir**\n**🤖➪ /utag - ürəklə tag edir**\n**🤖➪ /futag - Futbolçu adları ilə tag edir**\n**🤖➪ /mtag <səbəb> - Mafia rolları ilə tag edir**\n**🤖➪ /atag <səbəb> - Maraqlı adla tag edir**\n**🤖➪ /seher <səbəb> - Şəhər adları ilə tag edir**\n**🤖➪ /btag <səbəb> - Bayrag ilətagedir**\n**🤖➪ /fdtag <səbəb> - federasiya adları ilə tag edit**\n**🤖➪ /sahib - Botun sahiblərinin siyahısını gətirir**\n**🤖➪ /reklam - Reklam və ya əməkdaşlıq üçün bu əmrdən istifadə edin.**"
+  helptext = "** [Palmas Tagger](http://t.me/PalmasTaggerBot)-un Kömək Əmrlər Bunlardır...💭,⤵**\n\n**🤖➪ /sehid <səbəb> - Şəhid adı ilə tag edir.**\n**🤖➪ /tag <səbəb> - 5-li Tag Atışları.**\n**🤖➪ /etag <səbəb> - Emoji ilə etiketlər.**\n**🤖➪ /stag <səbəb> - Söz'lü Tag etiketlər.**\n**🤖➪ /tektag <səbəb> - Üzvləri Tək-Tək etiketlər.**\n**🤖➪ /old <səbəb> - old Tag Bot'una aid Tag etiketlər.**\n**🤖➪ /admins <səbəb> - İdarəçilər Tək-Tək etiketlər.**\n**🤖➪ /cancel - Tag Ələməyi Dayandır.**\n**🤖➪ /start - Botu işə salır**\n**🤖➪ /rtag - Rənglə tag edir**\n**🤖➪ /utag - ürəklə tag edir**\n**🤖➪ /futag - Futbolçu adları ilə tag edir**\n**🤖➪ /mtag <səbəb> - Mafia rolları ilə tag edir**\n**🤖➪ /atag <səbəb> - Maraqlı adla tag edir**\n**🤖➪ /seher <səbəb> - Şəhər adları ilə tag edir**\n**🤖➪ /btag <səbəb> - Bayrag ilətagedir**\n**🤖➪ /fdtag <səbəb> - federasiya adları ilə tag edit**\n**🤖➪ /sahib - Botun sahiblərinin siyahısını gətirir**\n**🤖➪ /reklam - Reklam və ya əməkdaşlıq üçün bu əmrdən istifadə edin.**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/oldtaggerBot?startgroup=a')],
-                      [Button.url('Söhbət Qurupu', 'https://t.me/oldchatresmi')],
-                      [Button.url('Kanal📢', 'https://t.me/oldresmiold')],
-		      [Button.url('🎉 Sahib', 'https://t.me/oldteamabasof'),
-                      Button.url(' BLOG', 'https://t.me/oldteamabasoff')],
-                      [Button.url('ᴼ ᴸ ᴰ BOTS','http://t.me/oldbotsold')],
-                      [Button.url('LORD GAME','http://t.me/lorddgame_bot?startgroup=a')],
+                      [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/PalmasTaggerBot?startgroup=a')],
+                      [Button.url('Söhbət Qurupu', 'https://t.me/MedusaSohbet')],
+                      [Button.url('Kanal📢', 'https://t.me/PalmasBots')],
+		      [Button.url('🎉 Sahib', 'https://t.me/thisisgalka'),
+                      Button.url(' 😉Belə bir botunun olmağını istərdinmi?', 'https://t.me/thisisgalka')],
+                      [Button.url('Palmas Bots','http://t.me/oldbotsold')],
+                      [Button.url('🇦🇿Yeniliklər üçün','http://t.me/PalmasBots?startgroup=a')],
                     ),
                     link_preview=False
                    )
@@ -1292,7 +1292,7 @@ async def handler(event):
     # Kimsə "Salam" və başqa bir şey deyəndə cavab verin
     if str(event.sender_id) not in SUDO_USERS:
         return await event.reply("__Sən mənə sahib deyilsən!__")
-    await event.reply('**Bot Online Narahat Olmayın** \n @oldteamabasof')
+    await event.reply('**Bot Online Narahat Olmayın** \n @thisisgalka')
 
 	
 	
@@ -1312,7 +1312,7 @@ async def son_durum(event):
     sender = await event.get_sender()
     if sender.id not in ozel_list:
       return
-    await event.respond(f"**O L D TAGGER BOT Statikaları ⚛**\n\nToplam Grup: `{len(grup_sayi)}`\nAnlıq Aktiv Grup: `{len(anlik_calisan)}`")
+    await event.respond(f"**Palmas Tagger Bot Statikaları ⚛**\n\nToplam Grup: `{len(grup_sayi)}`\nAnlıq Aktiv Grup: `{len(anlik_calisan)}`")
 	
 	
 	
@@ -1338,18 +1338,18 @@ async def duyuru(event):
 	
 @client.on(events.NewMessage(pattern='/reklam'))
 async def handler(event):	
-     await event.reply('🤖 [ 𝕆𝕃𝔻 TAGGER BOT](http://t.me/oldtaggerBot)-unda Reklam Almaq Üzçün [sahibim ¦ 💎](https://t.me/oldteamabasof)-ilə Әlaqә Saxlayın.')
+     await event.reply('🤖 [ Palmas Tagger Bot](http://t.me/PalmasTaggerBot)-unda Reklam Almaq Üzçün [sahibim ¦ 💎](https://t.me/Thisisgalka)-ilə Әlaqә Saxlayın.')
     
 
 
 @client.on(events.NewMessage(pattern='^/pro'))
 async def event(ups):
   if ups.sender_id == 5508658149:
-    await ups.reply("**Salam ᴀʙᴀᴤᴏᴠ! O L D TAGGER hizmətindədir. ☯️**")
+    await ups.reply("**Salam ᴀʙᴀᴤᴏᴠ! Palmas Tagger hizmətindədir. ☯️**")
   elif ups.sender_id == 5354746778:
-    await ups.reply("**Salam Afk! O L D TAGGER hizmətindədir. ☯️**")
+    await ups.reply("**Salam Afk! Palmas Tagger hizmətindədir. ☯️**")
   elif ups.sender_id == 5450528348:
-    await ups.reply("**Salam <•••>! O L D TAGGER hizmətindədir. ☯️**")
+    await ups.reply("**Salam <•••>! Palmas Tagger hizmətindədir. ☯️**")
   else:
     await ups.reply("**Sən pro user deyilsən. 💎**")
 
@@ -1357,9 +1357,9 @@ async def event(ups):
 
 @client.on(events.NewMessage(pattern='/sahib'))
 async def handler(event):	
-     await event.reply('🇦🇿 sahiblər**\n**@OLDTEAMABASOF**\n**@TTOWNERTT.')
+     await event.reply('🇦🇿 sahib**\n**@thisisgalka**\,)
      
      
      
-print(">> Bot işləyir narahat olmayın. @OLDTEAMABASOF Məlumat almaq üçün <<")
+print(">> Bot işləyir narahat olmayın. @thisisgalka Məlumat almaq üçün <<")
 client.run_until_disconnected()
